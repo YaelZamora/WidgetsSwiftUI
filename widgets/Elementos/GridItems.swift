@@ -13,7 +13,7 @@ struct GridItems: View {
     private var texto = ["Cine", "Perfil", "xxxx", "XXXXxx", "dasdas", "adsasd"]
     
     let data = (0...5).map{ "Item \($0)"}
-    let columns = [GridItem(.adaptive(minimum: 200))]
+    let columns = [GridItem(.adaptive(minimum: 150))]
     var body: some View {
         ScrollView{
             LazyVGrid(columns: columns){
@@ -32,7 +32,7 @@ struct GridItems: View {
                             }.frame(height: 60)
                         }
                         Text(texto[item]).frame(width: 200, height: 70).background().position(x:100, y: 150)
-                    }.frame(width: 200, height: 180).background(colores[item]).cornerRadius(20, corners: [.topLeft, .topRight])
+                    }.frame(width: 150, height: 180).background(colores[item]).cornerRadius(20, corners: [.topLeft, .topRight])
                 }
             }
         }
