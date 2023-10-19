@@ -15,7 +15,7 @@ struct TabBar: View {
         ZStack {
             TabView(selection: $selectedTab){
                 Scroll().tag(1)
-                ActionButton(size: 85, icon: "plus", position: 2).tag(2)
+                ActionButton(size: 85, icon: "plus", position: 2, color: .purple).tag(2)
                 Text("Shalalala").tag(3)
             }
             VStack {

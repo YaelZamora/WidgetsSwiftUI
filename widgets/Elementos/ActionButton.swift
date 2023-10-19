@@ -11,6 +11,7 @@ struct ActionButton: View {
     @State var size: CGFloat
     @State var icon: String
     @State var position: Int
+    @State var color: Color
     
     
     var body: some View {
@@ -24,10 +25,10 @@ struct ActionButton: View {
                     .labelStyle(.iconOnly)
                     .font(.title)
             }
-        }.position(generatePosition(positionIndex: position))
+        }.foregroundStyle(color).position(generatePosition(positionIndex: position))
     }
 }
 
 #Preview {
-    ActionButton(size: 75, icon: "plus", position: 2)
+    ActionButton(size: 75, icon: "plus", position: 2, color: .blue)
 }
