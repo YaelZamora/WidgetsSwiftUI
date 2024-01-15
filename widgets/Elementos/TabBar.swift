@@ -16,7 +16,7 @@ struct TabBar: View {
             TabView(selection: $selectedTab){
                 Scroll().tag(1)
                 ActionButton(size: 85, icon: "plus", position: 2, color: .purple).tag(2)
-                Text("Shalalala").tag(3)
+                SelectSeat().tag(3)
             }
             VStack {
                 Spacer()
