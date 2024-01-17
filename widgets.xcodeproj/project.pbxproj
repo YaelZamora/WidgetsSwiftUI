@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E60C3812A1819FC00A02B97 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60C3802A1819FC00A02B97 /* Search.swift */; };
 		7E60C3832A181D7D00A02B97 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60C3822A181D7D00A02B97 /* TabBar.swift */; };
+		7E62E82E2B5795EB00E47E34 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62E82D2B5795EB00E47E34 /* Calendar.swift */; };
 		7E6A01842AE0F2E500445B29 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A01832AE0F2E500445B29 /* ActionButton.swift */; };
 		7E6A01872AE100E000445B29 /* PositionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A01862AE100E000445B29 /* PositionHelper.swift */; };
 		7EA3C81B2A17FE8900FBE3AD /* widgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3C81A2A17FE8900FBE3AD /* widgetsApp.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		7E60C3802A1819FC00A02B97 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		7E60C3822A181D7D00A02B97 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7E62E82D2B5795EB00E47E34 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		7E6A01832AE0F2E500445B29 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		7E6A01862AE100E000445B29 /* PositionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionHelper.swift; sourceTree = "<group>"; };
 		7EA3C8172A17FE8900FBE3AD /* widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = widgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				7EF562462B2D33F80031674D /* LikeButton.swift */,
 				7ED695DE2B5588E3006D25FC /* SeatButton.swift */,
 				7ED695E02B55897D006D25FC /* SelectSeat.swift */,
+				7E62E82D2B5795EB00E47E34 /* Calendar.swift */,
 			);
 			path = Elementos;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				7EA3C81D2A17FE8900FBE3AD /* ContentView.swift in Sources */,
 				7EA3C81B2A17FE8900FBE3AD /* widgetsApp.swift in Sources */,
 				7E60C3812A1819FC00A02B97 /* Search.swift in Sources */,
+				7E62E82E2B5795EB00E47E34 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
