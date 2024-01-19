@@ -11,8 +11,9 @@ struct SeatButton: View {
     @State var item = 0
     @State var free = Bool.random()
     @State private var showAlert = false
-    @State private var colorLibre = Color.green
-    @State private var colorOcupado = Color.red
+    @State var colorLibre = Color.green
+    @State var colorOcupado = Color.red
+    @State var contador = 0
     
     var body: some View {
         Button {
@@ -35,8 +36,10 @@ struct SeatButton: View {
         if free {
             if colorLibre == .green {
                 colorLibre = .blue
+                contador += 1
             } else {
                 colorLibre = .green
+                contador -= 1
             }
         } else {
             showAlert.toggle()
@@ -45,5 +48,5 @@ struct SeatButton: View {
 }
 
 #Preview {
-    SeatButton()
+    SeatButton(free: true)
 }
