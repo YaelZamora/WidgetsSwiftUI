@@ -8,7 +8,7 @@
 import SwiftUI
 import Lottie
 
-struct LottieView: UIViewRepresentable {
+/*struct LottieView: UIViewRepresentable {
     func makeUIView(context: Context) -> some UIView {
         let animationView = LottieAnimationView(name: "duck")
         animationView.play()
@@ -19,12 +19,13 @@ struct LottieView: UIViewRepresentable {
     func updateUIView(_ uiView: UIViewType, context: Context) {
         //
     }
-}
+}*/
 
 struct LottieViews: View {
     var body: some View {
         VStack {
-            LottieView()
+            //LottieView()
+            LottieView(animation: .named("duck")).playing(loopMode: .loop)
             Text("El patito feliz!")
         }
     }

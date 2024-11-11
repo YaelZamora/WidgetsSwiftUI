@@ -27,6 +27,7 @@
 		7EDF8FB72B865D3B00370122 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF8FB62B865D3B00370122 /* LottieView.swift */; };
 		7EDF8FBA2B865E9000370122 /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF8FB92B865E9000370122 /* duck.json */; };
 		7EF562472B2D33F80031674D /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF562462B2D33F80031674D /* LikeButton.swift */; };
+		7EFF9CBC2CC68B8E003DD7AE /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF9CBB2CC68B8E003DD7AE /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		7EDF8FB62B865D3B00370122 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		7EDF8FB92B865E9000370122 /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = duck.json; sourceTree = "<group>"; };
 		7EF562462B2D33F80031674D /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		7EFF9CBB2CC68B8E003DD7AE /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				7ED695E02B55897D006D25FC /* SelectSeat.swift */,
 				7E62E82D2B5795EB00E47E34 /* Calendar.swift */,
 				7ED720A42B5AB347000DE2BE /* TicketPay.swift */,
+				7EFF9CBB2CC68B8E003DD7AE /* Gradient.swift */,
 			);
 			path = Elementos;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				7EA3C82E2A180D5D00FBE3AD /* GridItems.swift in Sources */,
 				7ED720A52B5AB347000DE2BE /* TicketPay.swift in Sources */,
 				7EA3C8292A17FF1400FBE3AD /* Switch.swift in Sources */,
+				7EFF9CBC2CC68B8E003DD7AE /* Gradient.swift in Sources */,
 				7ED2EEC12A18139E00D82CA4 /* Scroll.swift in Sources */,
 				7EF562472B2D33F80031674D /* LikeButton.swift in Sources */,
 				7E60C3832A181D7D00A02B97 /* TabBar.swift in Sources */,
