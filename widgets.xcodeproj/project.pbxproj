@@ -19,6 +19,7 @@
 		7EA3C8292A17FF1400FBE3AD /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3C8282A17FF1400FBE3AD /* Switch.swift */; };
 		7EA3C82C2A18072800FBE3AD /* MarketCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3C82B2A18072800FBE3AD /* MarketCard.swift */; };
 		7EA3C82E2A180D5D00FBE3AD /* GridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3C82D2A180D5D00FBE3AD /* GridItems.swift */; };
+		7EA9F6B82D3B6CC500F8FD42 /* SlideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9F6B72D3B6CC500F8FD42 /* SlideList.swift */; };
 		7ED2EEC12A18139E00D82CA4 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED2EEC02A18139E00D82CA4 /* Scroll.swift */; };
 		7ED695DF2B5588E3006D25FC /* SeatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED695DE2B5588E3006D25FC /* SeatButton.swift */; };
 		7ED695E12B55897D006D25FC /* SelectSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED695E02B55897D006D25FC /* SelectSeat.swift */; };
@@ -44,6 +45,7 @@
 		7EA3C8282A17FF1400FBE3AD /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		7EA3C82B2A18072800FBE3AD /* MarketCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCard.swift; sourceTree = "<group>"; };
 		7EA3C82D2A180D5D00FBE3AD /* GridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItems.swift; sourceTree = "<group>"; };
+		7EA9F6B72D3B6CC500F8FD42 /* SlideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideList.swift; sourceTree = "<group>"; };
 		7ED2EEC02A18139E00D82CA4 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		7ED695DE2B5588E3006D25FC /* SeatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatButton.swift; sourceTree = "<group>"; };
 		7ED695E02B55897D006D25FC /* SelectSeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeat.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				7E62E82D2B5795EB00E47E34 /* Calendar.swift */,
 				7ED720A42B5AB347000DE2BE /* TicketPay.swift */,
 				7EFF9CBB2CC68B8E003DD7AE /* Gradient.swift */,
+				7EA9F6B72D3B6CC500F8FD42 /* SlideList.swift */,
 			);
 			path = Elementos;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				7EF562472B2D33F80031674D /* LikeButton.swift in Sources */,
 				7E60C3832A181D7D00A02B97 /* TabBar.swift in Sources */,
 				7EDF8FB72B865D3B00370122 /* LottieView.swift in Sources */,
+				7EA9F6B82D3B6CC500F8FD42 /* SlideList.swift in Sources */,
 				7ED695E12B55897D006D25FC /* SelectSeat.swift in Sources */,
 				7EA3C82C2A18072800FBE3AD /* MarketCard.swift in Sources */,
 				7E6A01842AE0F2E500445B29 /* ActionButton.swift in Sources */,
