@@ -28,21 +28,25 @@ struct Switch: View {
                 touchingButton = !touchingButton
                 
                 if(touchingButton){
-                    positionX = 25
-                    color = .blue
-                    foreground = .black
-                    colorIcon = .white
-                    positionIcon = 75
-                    iconoType = "sun.max.fill"
-                    iconoSecond = "cloud.fill"
+                    withAnimation {
+                        positionX = 25
+                        color = .blue
+                        foreground = .black
+                        colorIcon = .white
+                        positionIcon = 75
+                        iconoType = "sun.max.fill"
+                        iconoSecond = "cloud.fill"
+                    }
                 } else {
-                    positionX = 75
-                    color = .black
-                    foreground = .white
-                    colorIcon = .black
-                    positionIcon = 25
-                    iconoType = "moon.fill"
-                    iconoSecond = "sparkles"
+                    withAnimation {
+                        positionX = 75
+                        color = .black
+                        foreground = .white
+                        colorIcon = .black
+                        positionIcon = 25
+                        iconoType = "moon.fill"
+                        iconoSecond = "sparkles"
+                    }
                 }
             }
     }
