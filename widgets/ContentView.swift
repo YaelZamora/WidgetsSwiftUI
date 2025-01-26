@@ -45,6 +45,9 @@ struct ContentView: View {
             Color.offWhite.ignoresSafeArea()
             Switch(touchingButton: true)
         }
+        VStack {
+            ButtonCardOptions()
+        }.frame(width: 300, height: 300)
     }
 }
 

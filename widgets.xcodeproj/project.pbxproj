@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E4A0D002D46DC750082F28A /* ButtonCardOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A0CFF2D46DC750082F28A /* ButtonCardOptions.swift */; };
 		7E60C3812A1819FC00A02B97 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60C3802A1819FC00A02B97 /* Search.swift */; };
 		7E60C3832A181D7D00A02B97 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60C3822A181D7D00A02B97 /* TabBar.swift */; };
 		7E62E82E2B5795EB00E47E34 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E62E82D2B5795EB00E47E34 /* Calendar.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E4A0CFF2D46DC750082F28A /* ButtonCardOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCardOptions.swift; sourceTree = "<group>"; };
 		7E60C3802A1819FC00A02B97 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		7E60C3822A181D7D00A02B97 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		7E62E82D2B5795EB00E47E34 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				7ED720A42B5AB347000DE2BE /* TicketPay.swift */,
 				7EFF9CBB2CC68B8E003DD7AE /* Gradient.swift */,
 				7EA9F6B72D3B6CC500F8FD42 /* SlideList.swift */,
+				7E4A0CFF2D46DC750082F28A /* ButtonCardOptions.swift */,
 			);
 			path = Elementos;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				7E6A01842AE0F2E500445B29 /* ActionButton.swift in Sources */,
 				7E6A01872AE100E000445B29 /* PositionHelper.swift in Sources */,
 				7EA3C81D2A17FE8900FBE3AD /* ContentView.swift in Sources */,
+				7E4A0D002D46DC750082F28A /* ButtonCardOptions.swift in Sources */,
 				7EA3C81B2A17FE8900FBE3AD /* widgetsApp.swift in Sources */,
 				7E60C3812A1819FC00A02B97 /* Search.swift in Sources */,
 				7E62E82E2B5795EB00E47E34 /* Calendar.swift in Sources */,
